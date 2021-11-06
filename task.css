@@ -1,0 +1,85 @@
+.one{
+    position:relative;
+    text-align: center;
+    color:white;
+    opacity:1.5;
+}
+.slides{
+
+    position:absolute;
+    top:25px;
+    left:15px;
+    font-size: 30px;
+}
+.two{
+    position:absolute;
+    top: 25px;
+    left:40%;
+    gap:5px;
+}
+.two ul{
+    display:flex;
+     gap:10px;
+    color:black;
+}
+.two li{
+    list-style-type:none;
+
+}
+.three{
+    position:absolute;
+    top:30px;
+    right:100px;
+}
+.three button{
+    padding:5px;
+    background-color:blue;
+}
+.nine{
+    position:absolute;
+    top:30px;
+    right:25px;
+}
+.nine button{
+    padding:5px;
+    background-color:lawngreen;
+
+}
+
+.four{
+  position:absolute;
+    padding: 0.5px;
+    left:40%;
+    top:30%;
+    font-size:60px;
+font-style: italic;
+ color:black;
+}
+.five{
+    position:absolute;
+    left:40%;
+    top:25%;
+    font-size:30px;
+    
+color:black;
+
+}
+.six{
+    position: absolute;
+    left:45%;
+    top:58%;
+}
+.six button{
+    padding: 10px;
+    background-color: violet;
+}
+.seven{
+    position:absolute;
+    bottom: 8px;
+    left:16px;
+}
+.eight{
+    position:absolute;
+    bottom: 8px;
+    right:16px;
+}
