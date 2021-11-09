@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>register form</title>
+   <link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="well">
+         <h3>REGISTRATION FORM</h3>
+      </div>
+      <form class="form" id="form" action="#">
+         <div class="form-control">
+            <label>Username</label>
+            <input type="text" placeholder="enter a name" id="Username" onkeyup="nUsername()">
+            
+      
+            <p id="Usernamemsg"></p>
+         </div>
+         <div class="form-control">
+            <label>Age</label>
+            <input type="number" min="1" max="99" placeholder="enter a number" id="Age" onkeyup="nAge()">
+            <p id="Agemsg"></p>
+         </div>
+         <div class="form-control">
+            <label>Email</label>
+            <input type="email" placeholder="#@gmail.com" id="Email" onkeyup="nEmail()">
+            <p id="Emailmsg"></p>
+         </div>
+         <div class="form-control">
+            <label>Password</label>
+            <input type="password" placeholder="password" id="Password" onkeyup="nPassword()">
+            <p id="Passwordmsg"></p>
+         </div>
+         <button onclick="nSubmit()">Submit</button>
+         <div class="success"></div>
+         <p id="f1"></p>
+         <p id="f2"></p>
+         <p id="f3"></p>
+         <p id="f4"></p>
+
+
+
+      </form>
+
+   </div>
+   <div class="container" id="displaypanel">
+      <div class="well">
+         <h3>USER DETAILS</h3>
+      </div>
+      <form class="form" action="#">
+         <div class="form-control">
+            <label>Username : </label>
+            <label id="lblUsername"></label>
+         </div>
+         <div class="form-control">
+            <label>Age : </label>
+            <label id="lblAge"></label>
+         </div>
+         <div class="form-control">
+            <label>Email : </label>
+            <label id="lblEmail"></label>
+         </div>
+         <div class="form-control">
+            <label>Password : </label>
+            <label id="lblPassword"></label>
+         </div>
+      </form>
+
+   </div>
+   <script src="task1.js"></script>
+</body>
+
+</html>
