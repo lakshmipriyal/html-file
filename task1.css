@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 100%;
+
+}
+.well{
+    padding:20px 40px;
+    background-color: white;
+}
+.well h3{
+    margin: 0;
+    text-align: center;
+}
+.form{
+    padding: 30px 40px;
+}
+.form-control{
+    margin-bottom:10px ;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    
+}
+.form-control input::placeholder{
+    color:gray;
+
+}
+.form-control p{
+    color: red;
+
+}
+.form button{
+    background-color: green;
+    color: black;
+    font-size: 16px;
+    margin-top:20px ;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+#displaypanel{
+    display: none;
+    margin-left: 10px;
+    width: 356px;
+    height: 600px;
+    
+}
+
+
+
+
+
+
+
+
